@@ -1,75 +1,139 @@
 .section-2 {
+  
     &__content {
-        &__title {
-            font-size: 48px;
-            display: flex;
-            justify-content: center;
-        }
+      margin-top: 133px;
+      font-family: "Poppins", sans-serif;
+      &__title {
+        font-size: 48px;
+        display: flex;
+        justify-content: center;
+      }
+      &__cards {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+  
         &__card-1 {
-            display: flex;
-            flex-direction: column;
-            width: 435px;
-            height: 894px;
-            background-color: #f5f5f5;
-            border-radius: 10px;
-            img {
-                padding: 35px 22px;
-            }
-            h2 {
-                font-size: 30px;
-                padding-left: 43px;
-            }
-            p {
-                font-size: 16px;
-                padding-left: 43px;
-                margin-top: 34px;
-                color: #8f95a5;
-                width: 347px;
-            }
-        }
-        &__button {
+          display: flex;
+          order: 2;
+          flex-direction: column;
+          width: 435px;
+          height: 894px;
+          background-color: #f5f5f5;
+          border-radius: 10px;
+          img {
+            padding: 35px 22px;
+          }
+          h2 {
+            font-size: 30px;
+            padding-left: 43px;
+            margin: 0;
+          }
+          p {
+            font-size: 16px;
+            padding-left: 43px;
+  
+            color: #8f95a5;
+            width: 347px;
+          }
+          &__button {
             padding: 43px;
             button {
-                padding: 17px 64px;
-                font-size: 18px;
-                color: #f5f5f5;
-                background: #263238;
-                border: none;
-                border-radius: 5px;
+              padding: 17px 64px;
+              font-size: 18px;
+              color: #f5f5f5;
+              background: #263238;
+              border: none;
+              border-radius: 5px;
             }
+          }
         }
         &__card-2 {
+          display: flex;
+          order: 1;
+          flex-direction: column;
+          height: 531px;
+          width: 435px;
+          background: #f5f5f5;
+          border-radius: 10px;
+          img {
+            margin-top: 18px;
+            display: flex;
+            align-self: center;
+            width: 217px;
+          }
+          &__text {
             display: flex;
             flex-direction: column;
-            width: 434px;
-            height: 531px;
-            background-color: #f5f5f5;
-            border-radius: 10px;
-            img {
-                padding-left: 122px;
-            }
+            padding-left: 43px;
+            width: 347px;
+  
             h2 {
-                font-size: 30px;
-                padding-left: 43px;
+              font-size: 30px;
             }
             p {
-                font-size: 16px;
-                padding-left: 43px;
-                margin-top: 34px;
-                color: #8f95a5;
-                width: 347px;
+              font-size: 16px;
+              margin-top: 1px;
+              color: #8f95a5;
             }
-        }
-        &__button {
-            padding: 43px;
+          }
+          &__button {
+            padding-bottom: 44px;
+            padding-left: 41px;
             button {
-                padding: 17px 64px;
-                font-size: 18px;
-                color: #f5f5f5;
-                background: #263238;
-                border: none;
-                border-radius: 5px;
+              padding: 17px 64px;
+              font-size: 18px;
+              color: #f5f5f5;
+              background: #263238;
+              border: none;
+              border-radius: 5px;
             }
+          }
         }
+  
+        &__card-3 {
+          display: flex;
+          order: 2;
+          flex-direction: column;
+          height: 532px;
+          width: 435px;
+          background: #f5f5f5;
+          border-radius: 10px;
+          img {
+            margin-top: 9px;
+            display: flex;
+            align-self: center;
+            width: 371px;
+          }
+          &__text {
+            display: flex;
+            flex-direction: column;
+            padding-left: 43px;
+  
+            h2 {
+              font-size: 30px;
+            }
+            p {
+              font-size: 16px;
+              margin-top: 1px;
+              color: #8f95a5;
+              width: 370px;
+            }
+          }
+          &__button {
+            padding-bottom: 44px;
+            padding-left: 41px;
+            button {
+              padding: 17px 64px;
+              font-size: 18px;
+              color: #f5f5f5;
+              background: #263238;
+              border: none;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
     }
-}
+  }
+  

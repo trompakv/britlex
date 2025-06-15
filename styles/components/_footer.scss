@@ -1,0 +1,31 @@
+.footer {
+    width: 100%;
+    &__content {
+        margin-top: 133px;
+        &__line {
+            background: #c4c4c4;
+            width: 100%;
+            height: 1px;
+        }
+        &__abc {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__cba {
+                font-size: 36px;
+                font-weight: 400;
+                span {
+                    color: #939393;
+                }
+            }
+            &__abc321 {
+                color: #939393;
+                font-weight: 400;
+            }
+        }
+    }
+
+    & a {
+        color: #939393;
+    }
+}
