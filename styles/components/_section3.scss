@@ -1,8 +1,36 @@
 .about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     &__left {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
-        
+        flex-direction: column;
+        gap: 25px;
+
+        &__text {
+            width: 635px;
+        }
+        &__stats {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            &__item {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 15px;
+
+                & h3 {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        .section__title {
+            font-size: 3.5rem;
+        }
     }
 }

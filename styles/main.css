@@ -73,6 +73,7 @@
 .section1__left__button {
   margin-top: 61px;
 }
+
 #section1-button {
   font-family: "Poppins", sans-serif;
   font-size: 36px;
@@ -214,10 +215,38 @@
   border-radius: 5px;
 }
 
-.about-us__left {
+.about-us {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.about-us__left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.about-us__left__text {
+  width: 635px;
+}
+.about-us__left__stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.about-us__left__stats__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.about-us__left__stats__item h3 {
+  font-size: 2rem;
+}
+.about-us__left .section__title {
+  font-size: 3.5rem;
 }
 
 .section-4 {
